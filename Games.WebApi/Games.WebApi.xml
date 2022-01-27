@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Games.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Games.WebApi.Controllers.BaseGameController">
+            <summary>
+            Базовый класс контроллеров
+            </summary>
+        </member>
+        <member name="F:Games.WebApi.Controllers.BaseGameController._mapper">
+            <summary>
+            Интерфейс маппера
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.BaseGameController.#ctor(AutoMapper.IMapper)">
+            <summary>
+            Конструктор базового контроллера
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.BaseGameController.ExecuteMethod``1(System.Func{System.Threading.Tasks.Task{BusinessLayer.Contracts.OperationResult{``0}}})">
+            <summary>
+            Выполнение метода переданного через параметры
+            </summary>
+            <typeparam name="TRequest">Тип данных возвращаеммых сервисом</typeparam>
+            <param name="actionMethod">Метод сервисов</param>
+            <returns>Данные о результатах выполнения метода сервиса</returns>
+        </member>
+        <member name="M:Games.WebApi.Controllers.BaseGameController.ProcessResult``1(System.Func{System.Threading.Tasks.Task{BusinessLayer.Contracts.OperationResult{``0}}})">
+            <summary>
+            Обработка результатов выполнения метода сервисов
+            </summary>
+            <typeparam name="TRequest">Тип данных возвращаеммых сервисом</typeparam>
+            <param name="actionMethod">Метод сервисов</param>
+            <returns>Данные о результатах выполнения метода сервиса</returns>
+        </member>
+        <member name="M:Games.WebApi.Controllers.BaseGameController.ProcessResult``2(System.Func{System.Threading.Tasks.Task{BusinessLayer.Contracts.OperationResult{``1}}})">
+            <summary>
+            Обработка результатов выполнения метода сервисов
+            </summary>
+            <typeparam name="TResult">Тип результата который необходимо вернуть</typeparam>
+            <typeparam name="TRequest">Тип данных возвращаеммых сервисом</typeparam>
+            <param name="actionMethod">Метод сервисов</param>
+            <returns>Данные о результатах выполнения метода сервиса</returns>
+        </member>
+        <member name="M:Games.WebApi.Controllers.BaseGameController.ProcessResultOfCreation``2(System.Func{System.Threading.Tasks.Task{BusinessLayer.Contracts.OperationResult{``1}}})">
+            <summary>
+            Обработка результатов создания сущности при помощи метода сервисов
+            </summary>
+            <typeparam name="TResult">Тип результата который необходимо вернуть</typeparam>
+            <typeparam name="TRequest">Тип данных возвращаеммых сервисом</typeparam>
+            <param name="actionMethod">Метод сервисов</param>
+            <returns>Данные о результатах выполнения метода сервиса</returns>
+        </member>
+        <member name="M:Games.WebApi.Controllers.BaseGameController.ProcessResultOfCreation``1(System.Func{System.Threading.Tasks.Task{BusinessLayer.Contracts.OperationResult{``0}}})">
+            <summary>
+            Обработка результатов создания сущности при помощи метода сервисов
+            </summary>
+            <typeparam name="TRequest">Тип данных возвращаеммых сервисом</typeparam>
+            <param name="actionMethod">Метод сервисов</param>
+            <returns>Данные о результатах выполнения метода сервиса</returns>
+        </member>
+        <member name="T:Games.WebApi.Controllers.DeveloperStudioController">
+            <summary>
+            Контроллер студий разработчиков
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.DeveloperStudioController.#ctor(BusinessLayer.Abstractions.IDeveloperStudioService,AutoMapper.IMapper)">
+            <summary>
+            Конструктор контроллера
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.DeveloperStudioController.Get(System.Int64)">
+            <summary>
+            Получить студию разработчика
+            </summary>
+            <param name="id">Идентификатор</param>
+        </member>
+        <member name="M:Games.WebApi.Controllers.DeveloperStudioController.GetAll">
+            <summary>
+            Получить все студии разработчики
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.DeveloperStudioController.Create(Games.WebApi.Models.DeveloperStudios.DeveloperStudioCreateModel)">
+            <summary>
+            Создать студию разработчика
+            </summary>
+            <param name="developerStudioModel">Модель студии разработчика</param>
+        </member>
+        <member name="M:Games.WebApi.Controllers.DeveloperStudioController.Delete(System.Int64)">
+            <summary>
+            Удалить студию разработчика
+            </summary>
+            <param name="id">Идентификтор</param>
+        </member>
+        <member name="M:Games.WebApi.Controllers.DeveloperStudioController.Update(Games.WebApi.Models.DeveloperStudios.DeveloperStudioUpdateModel)">
+            <summary>
+            Обновить студию разработчика
+            </summary>
+            <param name="developerStudioModel">Модель студии разработчика</param>
+        </member>
+        <member name="T:Games.WebApi.Controllers.GameController">
+            <summary>
+            Контроллер игр
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GameController.#ctor(BusinessLayer.Abstractions.IGameService,AutoMapper.IMapper)">
+            <summary>
+            Конструктор контроллера
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GameController.Get(System.Int64)">
+            <summary>
+            Получить игру
+            </summary>
+            <param name="id">Идентификатор</param>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GameController.GetByGenre(System.Int64)">
+            <summary>
+            Получить игры определенного жанра
+            </summary>
+            <param name="id">Идентификатор жанра</param>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GameController.Create(Games.WebApi.Models.Games.GameCreateModel)">
+            <summary>
+            Создать игру
+            </summary>
+            <param name="gameModel">Модель игры</param>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GameController.GetAll">
+            <summary>
+            Получить все игры
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GameController.Delete(System.Int64)">
+            <summary>
+            Удалить игру
+            </summary>
+            <param name="id">Идентификтор</param>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GameController.Update(Games.WebApi.Models.Games.GameUpdateModel)">
+            <summary>
+            Обновить игру
+            </summary>
+            <param name="gameModel">Информация об игре</param>
+        </member>
+        <member name="T:Games.WebApi.Controllers.GenreController">
+            <summary>
+            Контроллер жанров
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GenreController.#ctor(BusinessLayer.Abstractions.IGenreService,AutoMapper.IMapper)">
+            <summary>
+            Конструктор контроллера
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GenreController.Get(System.Int64)">
+            <summary>
+            Получить жанр
+            </summary>
+            <param name="id">Идентификатор</param>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GenreController.GetAll">
+            <summary>
+            Получить все жанры
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GenreController.Create(Games.WebApi.Models.Genres.GenreCreateModel)">
+            <summary>
+            Создать жанр
+            </summary>
+            <param name="genreCreateModel">Модель жанра</param>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GenreController.Delete(System.Int64)">
+            <summary>
+            Удалить жанр
+            </summary>
+            <param name="id">Идентификтор</param>
+        </member>
+        <member name="M:Games.WebApi.Controllers.GenreController.Update(Games.WebApi.Models.Genres.GenreModel)">
+            <summary>
+            Обновить жанр
+            </summary>
+            <param name="genreModel">Модель жанра</param>
+        </member>
+        <member name="T:Games.WebApi.Mapping.DeveloperStudioApiMappingProfile">
+            <summary>
+            Профиль маппера для моделей студий разработчиков
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Mapping.DeveloperStudioApiMappingProfile.#ctor">
+            <summary>
+            Конструктор маппера
+            </summary>
+        </member>
+        <member name="T:Games.WebApi.Mapping.GameApiMappingProfile">
+            <summary>
+            Профиль маппера моделей игр
+            </summary>
+        </member>
+        <member name="T:Games.WebApi.Mapping.GenreApiMappingProfile">
+            <summary>
+            Профиль маппера для моделей тега
+            </summary>
+        </member>
+        <member name="M:Games.WebApi.Mapping.GenreApiMappingProfile.#ctor">
+            <summary>
+            Конструктор маппера
+            </summary>
+        </member>
+        <member name="T:Games.WebApi.Models.DeveloperStudios.DeveloperStudioCreateModel">
+            <summary>
+            Модель, содержащая информаци о созданной студии разработчике
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.DeveloperStudios.DeveloperStudioCreateModel.Name">
+            <summary>
+            Название студии разработчика
+            </summary>
+        </member>
+        <member name="T:Games.WebApi.Models.DeveloperStudios.DeveloperStudioModel">
+            <summary>
+            Модель студии разработчика
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.DeveloperStudios.DeveloperStudioModel.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.DeveloperStudios.DeveloperStudioModel.Name">
+            <summary>
+            Название студии разработчика
+            </summary>
+        </member>
+        <member name="T:Games.WebApi.Models.DeveloperStudios.DeveloperStudioUpdateModel">
+            <summary>
+            Модель, содержащая информацию для обновления студии разработчика
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.DeveloperStudios.DeveloperStudioUpdateModel.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.DeveloperStudios.DeveloperStudioUpdateModel.Name">
+            <summary>
+            Наименование студии разработчика
+            </summary>
+        </member>
+        <member name="T:Games.WebApi.Models.Games.GameCreateModel">
+            <summary>
+            Модель, содержащая информацию о созданной игре
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameCreateModel.Name">
+            <summary>
+            Название игры
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameCreateModel.DeveloperStudioId">
+            <summary>
+            Идентификатор студии разработчика, которой пренадлежит игра
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameCreateModel.Genres">
+            <summary>
+            Список жанров игры
+            </summary>
+        </member>
+        <member name="T:Games.WebApi.Models.Games.GameModel">
+            <summary>
+            Модель игры
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameModel.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameModel.Name">
+            <summary>
+            Название
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameModel.DeveloperStudio">
+            <summary>
+            Идентификатор студии разработчика, которой пренадлежит игра
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameModel.Genres">
+            <summary>
+            Жанры
+            </summary>
+        </member>
+        <member name="T:Games.WebApi.Models.Games.GameUpdateModel">
+            <summary>
+            Модель, использующаяся для обновления информации об игре
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameUpdateModel.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameUpdateModel.Name">
+            <summary>
+            Название
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameUpdateModel.DeveloperStudioId">
+            <summary>
+            Идентификатор студии разработчика, которой пренадлежит игра
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Games.GameUpdateModel.Genres">
+            <summary>
+            Жанры
+            </summary>
+        </member>
+        <member name="T:Games.WebApi.Models.Genres.GenreCreateModel">
+            <summary>
+            Модель, использующаяся для создания жанра
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Genres.GenreCreateModel.Name">
+            <summary>
+            Имя жанра
+            </summary>
+        </member>
+        <member name="T:Games.WebApi.Models.Genres.GenreModel">
+            <summary>
+            Модель жанра
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Genres.GenreModel.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Genres.GenreModel.Name">
+            <summary>
+            Имя жанра
+            </summary>
+        </member>
+        <member name="P:Games.WebApi.Models.Genres.GenreUsingModel.Id">
+            <summary>
+            Идентификатор жанра
+            </summary>
+        </member>
+    </members>
+</doc>

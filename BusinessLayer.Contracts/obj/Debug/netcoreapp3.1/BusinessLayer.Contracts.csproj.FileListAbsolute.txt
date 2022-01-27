@@ -1,0 +1,12 @@
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\bin\Debug\netcoreapp3.1\BusinessLayer.Contracts.deps.json
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\bin\Debug\netcoreapp3.1\BusinessLayer.Contracts.dll
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\bin\Debug\netcoreapp3.1\BusinessLayer.Contracts.pdb
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\bin\Debug\netcoreapp3.1\Games.Common.dll
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\bin\Debug\netcoreapp3.1\Games.Common.pdb
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\obj\Debug\netcoreapp3.1\BusinessLayer.Contracts.csproj.AssemblyReference.cache
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\obj\Debug\netcoreapp3.1\BusinessLayer.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\obj\Debug\netcoreapp3.1\BusinessLayer.Contracts.AssemblyInfoInputs.cache
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\obj\Debug\netcoreapp3.1\BusinessLayer.Contracts.AssemblyInfo.cs
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\obj\Debug\netcoreapp3.1\BusinessLayer.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\obj\Debug\netcoreapp3.1\BusinessLayer.Contracts.dll
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Contracts\obj\Debug\netcoreapp3.1\BusinessLayer.Contracts.pdb

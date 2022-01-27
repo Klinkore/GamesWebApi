@@ -1,0 +1,17 @@
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\bin\Debug\netcoreapp3.1\BusinessLayer.Abstractions.deps.json
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\bin\Debug\netcoreapp3.1\BusinessLayer.Abstractions.dll
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\bin\Debug\netcoreapp3.1\BusinessLayer.Abstractions.pdb
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\bin\Debug\netcoreapp3.1\BusinessLayer.Contracts.dll
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\bin\Debug\netcoreapp3.1\DataAccess.Entities.dll
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\bin\Debug\netcoreapp3.1\Games.Common.dll
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\bin\Debug\netcoreapp3.1\BusinessLayer.Contracts.pdb
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\bin\Debug\netcoreapp3.1\DataAccess.Entities.pdb
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\bin\Debug\netcoreapp3.1\Games.Common.pdb
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\obj\Debug\netcoreapp3.1\BusinessLayer.Abstractions.csproj.AssemblyReference.cache
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\obj\Debug\netcoreapp3.1\BusinessLayer.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\obj\Debug\netcoreapp3.1\BusinessLayer.Abstractions.AssemblyInfoInputs.cache
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\obj\Debug\netcoreapp3.1\BusinessLayer.Abstractions.AssemblyInfo.cs
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\obj\Debug\netcoreapp3.1\BusinessLayer.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\obj\Debug\netcoreapp3.1\BusinessLayer.Abstractions.csproj.CopyComplete
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\obj\Debug\netcoreapp3.1\BusinessLayer.Abstractions.dll
+C:\Users\Даниил\source\repos\AutoDashboardRe\AutoDashboard\BusinessLayer.Abstractions\obj\Debug\netcoreapp3.1\BusinessLayer.Abstractions.pdb

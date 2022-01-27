@@ -1,0 +1,259 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Abstractions\\BusinessLayer.Abstractions.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Abstractions\\BusinessLayer.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Abstractions\\BusinessLayer.Abstractions.csproj",
+        "projectName": "BusinessLayer.Abstractions",
+        "projectPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Abstractions\\BusinessLayer.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Даниил\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Contracts\\BusinessLayer.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Contracts\\BusinessLayer.Contracts.csproj"
+              },
+              "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\DataAccess.Entities\\DataAccess.Entities.csproj": {
+                "projectPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\DataAccess.Entities\\DataAccess.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Contracts\\BusinessLayer.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Contracts\\BusinessLayer.Contracts.csproj",
+        "projectName": "BusinessLayer.Contracts",
+        "projectPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Contracts\\BusinessLayer.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Даниил\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\BusinessLayer.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\Games.Common\\Games.Common.csproj": {
+                "projectPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\Games.Common\\Games.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\DataAccess.Entities\\DataAccess.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\DataAccess.Entities\\DataAccess.Entities.csproj",
+        "projectName": "DataAccess.Entities",
+        "projectPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\DataAccess.Entities\\DataAccess.Entities.csproj",
+        "packagesPath": "C:\\Users\\Даниил\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\DataAccess.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\Games.Common\\Games.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\Games.Common\\Games.Common.csproj",
+        "projectName": "Games.Common",
+        "projectPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\Games.Common\\Games.Common.csproj",
+        "packagesPath": "C:\\Users\\Даниил\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Даниил\\Source\\Repos\\GamesWebApi\\Games.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Даниил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
